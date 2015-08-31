@@ -1,0 +1,1 @@
+	ษาU<?php exit; ?>a:1:{s:7:"content";s:102:"a:1:{s:35:"rename-wp-login/rename-wp-login.php";a:2:{i:0;s:15:"Rename_WP_Login";i:1;s:9:"uninstall";}}";}
