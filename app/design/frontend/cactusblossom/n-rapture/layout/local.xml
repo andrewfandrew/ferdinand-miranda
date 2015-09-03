@@ -7,4 +7,14 @@
 	<action method="addLinkRel"><rel>stylesheet</rel><href>//fonts.googleapis.com/css?family=Roboto+Condensed:300,400,500,700,600</href></action>
     </reference>
 </default>
+
+<cms>
+<layouts>
+<redirect>
+<label>Title that will be shown in drop down menu in Admin panel</label>
+<template>page/template-title.phtml</template>
+</redirect>
+</layouts>
+</cms>
+
 </layout>
