@@ -24,36 +24,17 @@
  * @license     http://opensource.org/licenses/afl-3.0.php  Academic Free License (AFL 3.0)
  */
 ?>
-<!-- Footer -->
-<div id="footer">
-<div class="container">
-<div class="row">
-<div class="col-md-4">
-<?php echo $this->getChildHtml('footer-company') ?>
-</div>
-<div class="col-md-8">
-<div class="row">
-<?php echo $this->getChildHtml('footer-cmslinks') ?>
-<hr>
-</div>
-<div class="row">
-<div class="col-md-6">
-<?php echo $this->getChildHtml('footer-newsletter') ?>
-</div>
-<div class="col-md-6">
-<?php echo $this->getChildHtml('footer-social') ?>
-</div>
-</div>
-</div>
-</div>
-<div class="row">
-<div class="col-md-12">
-<hr>
-</div>
-<div class="col-md-8">
-<?php echo $this->getCopyright() ?>
-</div>
-<div class="col-md-4">
-<?php echo $this->getChildHtml('footer-cards') ?>
-</div>
-</div>
+<?php
+/**
+ * Top menu for store
+ *
+ * @see Mage_Page_Block_Html_Topmenu
+ */
+?>
+<?php $_menu = $this->getHtml('level-top') ?>
+<?php if ($_menu): ?>
+<ul class="nav navbar-nav">
+<li><a href="<?php echo $this->getUrl('') ?>" title="<?php echo $this->getLogoAlt() ?>">Home</a></li>
+<?php echo $_menu ?>
+</ul>
+<?php endif ?>
