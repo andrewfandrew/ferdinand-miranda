@@ -123,5 +123,5 @@ skin/frontend/default/modern/
 skin/frontend/enterprise
 skin/install/
 var/
-skin/frontend/cactusblossom/n-rapture/scss/
-skin/frontend/cactusblossom/n-rapture/scss/*
+skin/frontend/cactusblossom/n-rapture/scss/**
+skin/frontend/cactusblossom/n-rapture/images/**
