@@ -123,8 +123,5 @@ skin/frontend/default/modern/
 skin/frontend/enterprise
 skin/install/
 var/
-<<<<<<< HEAD
 skin/frontend/cactusblossom/n-rapture/scss/
-=======
 skin/frontend/cactusblossom/n-rapture/scss/*
->>>>>>> url-fix
